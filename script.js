@@ -1,0 +1,42 @@
+const products =[
+{
+  name: "Wooden Train",
+  price: 24.99,
+  image: "train.jpg",
+  description: "Embark on a charming journey with this beautiful handcrafted wooden train set. Engine and three interchangeable cars boast intricate details made from real beech wood. Large size (84cm L x 11cm H x 13cm W) with moving wheels and a fully ecological design",
+  ages: "3+",
+  button: '<button onclick="showProfile(\'Train\')" class="btn btn-warning">View Profile</button>',
+},
+{
+  name: "Wooden Plane",
+  price: 29.99,
+  image: "plane.jpg",
+  description: "Soar through imaginative skies with this classic wooden airplane. Handcrafted from sustainable Baltic birch wood with a safe, natural harvest finish and a spinning propeller. Measures 3.5 H x 7 L x 7 W.",
+  ages: "3-9",
+  button: '<button onclick="showProfile(\'Plane\')" class="btn btn-warning">View Profile</button>',
+},
+{
+  name: "Wooden Car",
+  price: 19.99,
+  image: "car.jpg",
+  description: "This heirloom-quality wooden car is a timeless treasure. Handcrafted from domestic and exotic hardwoods with a clear lacquer finish, this unique car will inspire generations of imaginative play. Please note potential choking hazards for small children.",
+  ages: "all ages",
+  button: '<button onclick="showProfile(\'Car\')" class="btn btn-warning">View Profile</button>',
+},
+{
+  name: "Wooden Boat",
+  price: 29.99,
+  image: "boat.jpg",
+  description: "Set sail for bathtub adventures with this adorable wooden boat. Made from solid Maine white pine, this handcrafted toy floats and features rounded edges for safety. Includes two peg lobster people",
+  ages: "all ages",
+  button: '<button onclick="showProfile(\'Boat\')" class="btn btn-warning">View Profile</button>',
+},
+{
+ name: "Wooden Block Set",
+  price: 29.99,
+  image: "block2.jpg",
+  description: "Build creativity and imagination with this high-quality, 72-piece block set. Made from naturally finished and smooth-sanded hardwood blocks, this set comes in a convenient wooden storage crate (13” L x 12” W x 2” H).",
+  ages: "3+",
+  button: '<button onclick="showProfile(\'Block\')" class="btn btn-warning">View Profile</button>',
+},
+]
