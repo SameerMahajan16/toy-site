@@ -6,3 +6,11 @@ body{
 .navbar .navbar-brand {
   color: #ffe600;
 }
+
+h3 {
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  border: 5px solid rgb(255, 171, 92);
+  margin: 0;
+}
