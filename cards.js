@@ -33,7 +33,18 @@ document.addEventListener('DOMContentLoaded', () => {
   if (e.target.classList.contains('show-info-btn')) {
     const index = e.target.getAttribute('data-player-index')
     const player = products[index]
-    showPlayerModal(product)
+    showPlayerModal(products)
   }
 })
 )
+function showPlayerModal(products) {
+  document.getElementById('modalImage').src = products.image
+  document.getElementById('modalName').textContent = `${products.name} ${products.name}`
+  document.getElementById('modalPrice').textContent = products.price
+  document.getElementById('modalDescription').textContent = products.description
+}
+
+
+
+
+ 
